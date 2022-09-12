@@ -1,13 +1,4 @@
 INTRODUCTION
 ------------
-
-The Administration Menu module displays the entire administrative menu tree
-(and most local tasks) in a drop-down menu, providing administrators one- or
-two-click access to most pages.  Other modules may also add menu links to the
-menu using hook_admin_menu_output_alter().
-
- * For a full description of the module, visit the project page:
-   https://www.drupal.org/project/admin_menu
-
- * To submit bug reports and feature suggestions, or track changes:
-   https://www.drupal.org/project/issues/admin_menu
+Industrial Engineer graduate in Peru with solid experience and academic background in the fields of general administration (public and private), supply chain management, production, financial and organizational development. Fluent Spanish speaker competent in the use of business software as ERP. Proactive, motivated, with the ability to analyze and make decisions under pressure conditions.
+Authorized to work in the US for any employer
