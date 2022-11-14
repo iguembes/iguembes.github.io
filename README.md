@@ -1,4 +1,4 @@
-# My portfolio's repositori
+# My portfolio's repository
 Public repository about my portfolio.
 
 ## About me
