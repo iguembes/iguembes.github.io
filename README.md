@@ -1,9 +1,11 @@
 # My portfolio's repository
+
 Public repository about my portfolio.
 
 ## About me
+
 I'm Industrial Engineer graduate in Peru with experience in logistics - supply chain management.
-Currently learning an online Professional Certificate in Coding and looking to collaborate on any project related to my goals.
+Currently learning an online Professional Certificate in Coding at MIT xPRO.
 
 ### Contact
 
