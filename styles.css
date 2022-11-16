@@ -1,3 +1,20 @@
+body {
+  background: #e4e4e4;
+  padding: 5px;
+  height: 100vh;
+  margin: 0;
+  font: 500 100% system-ui, sans-serif;
+  text-transform:capitalize;
+  background-color: rgb(255, 241, 215);
+}
+h1 {
+  color: rgba(0, 0, 0, 1);
+  font-size: large;
+  font-family: 'Franklin Gothic Medium';
+}
+p {
+  color: rgba(0, 0, 0, 1);
+}
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -11,13 +28,13 @@
     'menu main main main right right'
     'menu footer footer footer footer footer';
   gap: 10px;
-  background-color: #2196F3;
+  background-color: rgb(88, 91, 76);
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(196, 215, 133);
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 10px 0;
+  font-size: 20px;
 }
