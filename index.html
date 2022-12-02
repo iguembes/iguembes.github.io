@@ -5,138 +5,130 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link 
-      rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-      crossorigin="anonymous"/>
-
-    <link rel="stylesheet" href="./styles.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu=font-effect-neon"/>
   </head>
   <body>
-  <script 
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-    crossorigin="anonymous"></script>
-  <script 
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" 
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
-    crossorigin="anonymous"></script>
-  <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-    crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    <!--Nav bar bootstrap-->
+    <nav class="navbar navbar-expand-sm" class="navbar fixed-top">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="#"><i class="bi bi-fingerprint" style="font-size: 1.8vw;"></i> Ivan Guembes Portfolio's</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+            
+            <li class="nav-item">
+            <a class="nav-link" href="#">My GitHub</a>
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link" href="C:\Users\ivang\Documents\github\bootstrap\projects.html">MIT Projects</a>
+            </li>
+          
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+            </li>
+            
+            </ul>
+        </div>
     </nav>
-    <h1>Ivan Portfolio's</h1>
-    <p>
-      This is about me
-      <a
-        href="https://www.linkedin.com/in/ivan-guembes-0284b61b0/"
-        target="_blank"
-        >Linkedin</a
-      >
-    </p>
-    <!-- testing Equal-width multi-row -->
-    <div class="alert alert-success" role="alert">
-      <h4 class="alert-heading">Well done!</h4>
+    <!--Welcome bootstrap-->
+    <div class="description">
+      <div class="row">
+      <div class="col-sm-8">
+        <div class="container-intro">
+          <h3>Welcome to my personal portfolio web page!</h3>
       <p>
-        Aww yeah, you successfully read this important alert message. This
-        example text is going to run a bit longer so that you can see how
-        spacing within an alert works with this kind of content.
+        <br>Hi!. My name is Ivan and this is my portfolio's web page. Here you'll find some of that I've learned as a student in the Professional Certificate in Coding: Full Stack Development with MERN at MIT xPRO.
+        <br>From here you can navigate thru my web page to see some of my projects and personal info. 
+        <br>Since you will find in this web page a section about me and my professional background, here <i class="bi bi-arrow-down-circle-fill" style="font-size: 1.1vw;"></i> I want to share with you some fun facts about me.          
+        <br>I think this is a good way to introduce myself from the non-professional perspective.
+        <br>I hope you like my portfolio!
       </p>
-      <hr />
-      <p class="mb-0"
-        <span style="color:blue";</span>
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
-      </p>
-      <p class="mb-0">
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
-      </p>
-    </div>
-
-    <div class="grid-container">
-      <div class="item1">
-        Header
-        <h1>Hola</h1>
-        <h3>
-          Fancy display heading
-          <big class="text-muted">With faded secondary text</big>
-        </h3>
-        <p class="lead">
-          This is a lead paragraph. It stands out from regular paragraphs.
+      <img src=".\images\fun-facts.png" style="width: 12%;" class="img-fluid" alt="Fun Facts Image">
+      <br>          
+        <p> 
+            <ul>
+            <li>I’d love to open a shop that sells Bicycles</li>
+            <li>I would love to see a movie about Sci-Fi action.</li>
+            <li>If I could live anywhere in the world, I’d live “anywhere with family and friends”.</li>
+            <li>My dream vacation would be in “any white sand blue water beach”.</li>
+            <li>If money was no object, I’d “fly to the moon”.</li>
+            <li>If I could only watch one show/movie/series for the rest of my life, it would be “breaking bad”.</li>
+            <li>Assuming I magically get all of my daily nutrition needs, the only food I would ever eat is “watermelon”.</li>
+            <li>If I were to teach any subject, it would be “math”.</li>
+            <li>One thing on my bucket list is “to travel to Europe/Asia”.</li>
+            <li>If I had to live in another country, I would choose “Finland”.</li>
+            <li>If I could win an imaginary award right now, I’d probably receive the “best procrastinator of the year”.</li>
+            <li>Someone asks me to give a sudden and abrupt speech about any topic for at least 15 minutes straight. I’d talk about “politics in Peru”.</li>
+            <li>If I was a genius inventor, I would most like to invent “something to help me get deeply sleep”.</li>
+          </ul>
         </p>
       </div>
-      <div class="item2">
-        Menu
-        <h1>
-          This is about faith
-          <a href="https://twitter.com/Dario1969" target="_blank">Twitter</a>
-        </h1>
-        <img
-          src="BioPicIG.jpg"
-          alt="Bio picture"
-          style="width: 300px; height: 300px"
-        />
-      </div>
-      <div class="item3">Main</div>
-      <div class="item4">Right</div>
-      <div class="item5">
-        Footer
-        <h1>This is h1.</h1>
-        <p>This is h2.</p>
-        <p>This is h3.</p>
-        <hr />
-        <p>This is h4.</p>
-        <p>This is h5.</p>
-        <p>This is h6.</p>
-      </div>
     </div>
+          <div class="col-sm-4">
+          <div class="container-video">
+          <h3>About me</h3>
+          <p>Hi! My name is Ivan Guembes. Here you will find </p>
+          <div class="container-picture">
+          <img src=".\images\BioPicIG.jpg" class="card-img-top rounded-circle" class="img-fluid" style="width: 85%;" alt="My Picture">
+          </div>
+          <a class="btn btn-primary btn-lg" 
+          href="https://youtu.be/aUi4lCyNm5k" 
+          target="_blank" 
+          role="button" 
+          style="font-size: 1.4vw;"
+          id="intro-buttom"
+          ><i class="bi bi-camera-video-fill" style="font-size: 1.1vw;"></>
+            Watch my intro video!</i></a>
+          </div>
+      </div>
+        </div>
+    </div>
+  
+  
+  
+    <footer class="page-footer text-right">
+      <div class="footer-copyright text-right">© 2020 Copyright: MyWebsite.com
+                <i class="bi bi-linkedin" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-fingerprint" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-envelope-at-fill" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-camera-video" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-camera-video-fill" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-arrow-down-circle-fill" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-whatsapp" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-twitter" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-play-btn-fill" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-geo-alt-fill" style="font-size: 1.1vw;"></i>
+                <i class="bi bi-messenger" style="font-size: 1.1vw;"></i>
+                <i class="bi-alarm" style="font-size: 1.1vw;"></i>
+</div>
+  </footer>
   </body>
 </html>
+
