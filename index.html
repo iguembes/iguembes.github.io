@@ -1,142 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>My Website</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link 
-      rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-      crossorigin="anonymous"/>
-
-    <link rel="stylesheet" href="./styles.css"/>
-  </head>
-  <body>
-    <script 
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-    crossorigin="anonymous"></script>
-  <script 
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" 
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
-    crossorigin="anonymous"></script>
-  <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-    crossorigin="anonymous"></script>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <h1>Ivan Portfolio's</h1>
-    <p>
-      This is about me
-      <a
-        href="https://www.linkedin.com/in/ivan-guembes-0284b61b0/"
-        target="_blank"
-        >Linkedin</a
-      >
-    </p>
-    <!-- testing Equal-width multi-row -->
-    <div class="alert alert-success" role="alert">
-      <h4 class="alert-heading">Well done!</h4>
-      <p>
-        Aww yeah, you successfully read this important alert message. This
-        example text is going to run a bit longer so that you can see how
-        spacing within an alert works with this kind of content.
-      </p>
-      <hr />
-      <p class="mb-0"
-        <span style="color:blue";</span>
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
-      </p>
-      <p class="mb-0">
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
-      </p>
-    </div>
-
-    <div class="grid-container">
-      <div class="item1">
-        Header
-        <h1>Hola</h1>
-        <h3>
-          Fancy display heading
-          <big class="text-muted">With faded secondary text</big>
-        </h3>
-        <p class="lead">
-          This is a lead paragraph. It stands out from regular paragraphs.
-        </p>
-      </div>
-      <div class="item2">
-        Menu
-        <h1>
-          This is about faith
-          <a href="https://twitter.com/Dario1969" target="_blank">Twitter</a>
-        </h1>
-        <img
-          src="BioPicIG.jpg"
-          alt="Bio picture"
-          style="width: 300px; height: 300px"
-        />
-      </div>
-      <div class="item3">Main</div>
-      <div class="item4">Right</div>
-      <div class="item5">
-        Footer
-        <h1>This is h1.</h1>
-        <p>This is h2.</p>
-        <p>This is h3.</p>
-        <hr />
-        <p>This is h4.</p>
-        <p>This is h5.</p>
-        <p>This is h6.</p>
-      </div>
-    </div>
-  </body>
-</html>
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+body {
+    padding: 0;
+    margin: 0;
+	font-family: "Ubuntu", serif;
+    }
+.navbar {
+    background: #a1a4a8;
+    position: sticky;
+    top: 0;
+    width: 100%;
+	height:min-content;
+	z-index: 10;
+	line-height: 0.8;
+	font-family: "Oswald", serif;
+	border-style: solid;
+	border-color: #919294;
+	border-width: 3px;
+}
+.nav-link,
+.navbar-brand {
+    color: #000;
+    cursor: pointer;
+	font-size: 1.4vw;
+	font-weight: bold;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.description {
+    background-color:#dccddb;
+}
+.container-intro {
+	padding: 30px;
+	left:auto;
+	position:relative;
+	text-align: left;
+}
+.container-video {
+	background-color: #a1a4a8;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 12px;
+	border-style: solid;
+	border-color: #919294;
+	border-width: 3px;
+}
+.container-picture {
+	padding:15%;
+}
+.description h3 {
+	color: #000000;
+	font-size: 1.5vw;
+	text-align: center;
+	font-weight: bold;
+}
+.description p {
+	color: #000000;
+	line-height: 1.5;
+	font-size: 1.1vw;
+}
+.description ul {
+	color: #000000;
+	line-height: 1.5;
+	font-size: 1.1vw;
+	font-style: italic;
+}
+#intro-buttom {
+	width: 60%;
+	background-color: rgb(140, 152, 154);
+	border-color: rgba(140, 152, 154, 0.6);
+	border-width: 2px;
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+	border-radius: 0.25rem;
+	line-height:normal;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+#intro-buttom:hover {
+	background-color: rgba(186, 208, 212, 0.5);
+	}
+.container-projects {
+	background: #a7c3ac;
+	padding: 1% 3% 15% 3%;
+	text-align: center;
+}
+.container-projects h5 {
+	color: black;
+	font-size: 1.6vw;
+	text-align: center;
+	font-weight: bold;
+}
+container-projects p {
+	line-height: 1.3;
+	text-align: left;
+	font-size: 1.2vw;
+	color: black;
+}
+.card{
+	padding: 5%;
+	width: 100%;
+	height:100%;
+	background-color:rgb(115, 139, 115);
+	border-radius: 12px;
+}
+	
+.container-projects .btn-primary {
+	width: 90%;
+	background-color: rgba(199, 222, 204, 0.4);
+	border-color: rgb(0, 0, 0);
+	border-width: 2px;
+	color: #000;
+	font-weight: bold;
+	border-radius: 0.25rem;
+	font-size: 1.4vw;
+	line-height: 2;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+.container-projects .btn-primary:hover {
+	background-color: rgba(235, 247, 250, 0.8);
+}
+.page-footer {
+	position: sticky;
+    bottom: 0;
+    width: 100%;
+	height:min-content;
+	z-index: 10;
+    background-color: #222;
+    color: #ccc;
+}
+.footer-copyright {
+    color: #ccc;
+	font-size: 1.3vw;
+}
+.shadow {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
