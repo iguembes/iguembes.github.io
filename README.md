@@ -30,8 +30,8 @@ You can contact/follow me thru:
 
 ```
 email: ivanguembes@hotmail.com
-twitter: https://twitter.com/ivan_guembes
-LinkedIn: www.linkedin.com/in/ivan-guembes-0284b61b0
 ```
 
-### [Go to top](https://github.com/iguembes/iguembes.github.io/edit/main/README.md#my-portfolios-repository)
+[Twitter](https://twitter.com/ivan_guembes)
+
+[LinkedIn](www.linkedin.com/in/ivan-guembes-0284b61b0)
