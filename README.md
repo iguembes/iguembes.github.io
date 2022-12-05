@@ -10,6 +10,11 @@ I also have owned a small business related to supply personal protective equipme
 Regarding my professional career here in USA, I have worked for 3M company in his manufacturing site located in Rockland, MA, as a Production Setup Technician, and then I got a position in Moderna, as a Logistics Associate, where I’m working now.
 Currently learning an online Professional Certificate in Coding at MIT xPRO.
 
+## About this portfolio
+
+Here you'll find some of that I've learned as a student in the Professional Certificate in Coding: Full Stack Development with MERN at MIT xPRO.
+I'm starting with code and this is my very first web page. Feel free to navigate thru and fill your senses with some of my work.
+
 ### Projects
 
 As I mentioned above I’m currently working at Moderna, as a Logistics Associate, and one of the most needed processes required for biotech and pharma companies, is  cold chain management. 
